@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    width:100vw;
+    height:100vh;
+
+    background:url("fundo.jpg");
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+    font-family:Arial;
+}
+
+#menu{
+    width:70%;
+    max-width:650px;
+    text-align:center;
+}
+
+#logo{
+    width:170px;
+    margin-bottom:15px;
+}
+
+h1{
+    color:white;
+    font-size:34px;
+    margin-bottom:35px;
+}
+
+button{
+    width:100%;
+    height:65px;
+    border:none;
+    border-radius:14px;
+    background:#2563EB;
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+}
+
+/* HANGAR */
+
+#hangar{
+    width:90%;
+    max-width:800px;
+    margin:auto;
+    color:white;
+}
+
+#topo{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+#topo h1{
+    margin:0;
+    font-size:32px;
+}
+
+#moedas{
+    font-size:20px;
+    font-weight:bold;
+}
+
+#aviao{
+    background:rgba(40,40,40,0.85);
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+}
+
+#modelo{
+    font-size:100px;
+    margin:20px;
+}
+
+#comprar,
+#batalha{
+    width:100%;
+    height:60px;
+    margin-top:15px;
+
+    border:none;
+    border-radius:12px;
+
+    background:#2563EB;
+    color:white;
+
+    font-size:19px;
+    font-weight:bold;
+}
+
+#comprar:hover,
+#batalha:hover{
+    background:#4DD0E1;
+}
+/* BATALHA */
+
+#batalha{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    color:white;
+}
